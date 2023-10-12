@@ -16,7 +16,7 @@
     "lint": "eslint . --ext .ts --fix",
     "format": "prettier --write .",
     "prepare": "husky install",
-    "dev": "nodemon --inspect",
+    "dev": "nodemon",
     "build": "tsc",
     "start": "node dist/main.js"
   },
