@@ -15,7 +15,7 @@
     "test:coverage": "jest --coverage",
     "lint": "eslint . --ext .ts --fix",
     "format": "prettier --write .",
-    "prepare": "husky install",
+    "prepare": "husky init",
     "dev": "tsx --watch ./src/main.ts",
     "build": "esbuild ./src/main.ts --bundle --platform=node --format=esm --packages=external --outdir=dist",
     "start": "node dist/main.js"
